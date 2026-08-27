@@ -66,7 +66,7 @@ async function sendMessage() {
                 "X-Title": "Saif AI Assistant"
             },
             body: JSON.stringify({
-                "model": "deepseek/deepseek-r1:free",
+                "model": "meta-llama/llama-3.3-70b-instruct:free",
                 "messages": [
                     {
                         "role": "system",
@@ -100,7 +100,7 @@ ${searchContext}`
         if (data.choices && data.choices[0] && data.choices[0].message) {
             loadingMessage.textContent = data.choices[0].message.content;
         } else {
-            loadingMessage.textContent = "দুঃখিত, কোনো উত্তর পাওয়া যায়নি।";
+            loadingMessage.textContent = "দুঃখিত, কোনো উত্তর পাওয়া যায়নি।";
         }
 
     } catch (error) {
