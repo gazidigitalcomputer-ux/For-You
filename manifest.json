@@ -1,0 +1,9 @@
+{
+  "name": "Saif AI Assistant",
+  "short_name": "Saif AI",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait"
+}
